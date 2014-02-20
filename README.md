@@ -29,11 +29,11 @@ The table below shows the main characterics of all files in the dataset.
 |aware.jp2|Created with Aware encoder|Yes|
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
-|bitwiser-1911.jp2 -bitwiser-2021.jp2 \*|Bit-corrupted *tagCount* field in ICC profile|No|
-|bitwiser-8127.jp2 - bitwiser-8730.jp2 \*|Bit-corrupted *Box Length* field in Resolution Box|No|
-|bitwiser-22181.jp2 \*|Bit-corrupted *Box Length* field in JP2 Header Box|No|
-|bitwiser-10918.jp2 - bitwiser-10955.jp2 \*|Bit-corrupted *xsiz* marker in codestream header|No|
-|bitwiser-11208.jp2 - bitwiser-11252.jp2 \*|Bit-corrupted *ysiz* marker in codestream header|No|
+|bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|No|
+|bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
+|bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
+|bitwiser-codestreamheader-corrupted-xsiz\*.jp2|Bit-corrupted *xsiz* marker in codestream header|No|
+|bitwiser-codestreamheader-corrupted-ysiz\*.jp2|Bit-corrupted *ysiz* marker in codestream header|No|
 
 (1)Not detected yet, will be added in upcoming release!
 
@@ -48,7 +48,7 @@ All images are derived from the following source image:
 
 Public Domain.
 
-Except images marked with * which were created by Andy Jackson (British Library) using the *Bitwiser* tools:
+Except *bitwiser* images which were created by Andy Jackson (British Library) using the *Bitwiser* tools:
 
 [https://github.com/openplanets/bitwiser](https://github.com/openplanets/bitwiser) 
 
