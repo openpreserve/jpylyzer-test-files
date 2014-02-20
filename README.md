@@ -8,7 +8,7 @@ These files were created as an openly licensed reference data set for testing cu
 ##Description of dataset
 The table below shows the main characterics of all files in the dataset.  
 
-|File name|Description|Valid JP2
+|File name|Description|Valid JP2|
 |:---|:---|:---|
 |reference.jp2|Reference image|Yes|
 |signature_corrupted.jp2|Corrupted signature box (byte 0x0A at offset 11 changed to 0x0B)|No|
@@ -29,6 +29,11 @@ The table below shows the main characterics of all files in the dataset.
 |aware.jp2|Created with Aware encoder|Yes|
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
+|bitwiser-1911.jp2 -bitwiser-2021.jp2 \*|Bit-corrupted *tagCount* field in ICC profile|No|
+|bitwiser-8127.jp2 - bitwiser-8730.jp2 \*|Bit-corrupted *Box Length* field in Resolution Box|No|
+|bitwiser-22181.jp2 \*|Bit-corrupted *Box Length* field in JP2 Header Box|No|
+|bitwiser-10918.jp2 - bitwiser-10955.jp2 \*|Bit-corrupted *xsiz* marker in codestream header|No|
+|bitwiser-11208.jp2 - bitwiser-11252.jp2 \*|Bit-corrupted *ysiz* marker in codestream header|No|
 
 (1)Not detected yet, will be added in upcoming release!
 
@@ -42,6 +47,10 @@ All images are derived from the following source image:
 > 1786 description of the historic Montgolfier Brothers' 1783 balloon flight. Illustration with engineering proportions and description.
 
 Public Domain.
+
+Except images marked with * which were created by Andy Jackson (British Library) using the *Bitwiser* tools:
+
+[https://github.com/openplanets/bitwiser](https://github.com/openplanets/bitwiser) 
 
 ##License
 All images released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
