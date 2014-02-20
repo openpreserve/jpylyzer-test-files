@@ -2,7 +2,7 @@
 
 ##Purpose of these files
 
-These files were created as an openly licensed reference data set for testing current and upcoming versions of [jpylyzer](http://www.openplanetsfoundation.org/software/jpylyzer). It includes valid JP2s that were created using a variety of encoding applications, images that are damaged or otherwise corrupted, images that violate certain aspects of the JP2 format specification, and files that aren't even JP2s at all. Jpylyzer should be able to process all of these files without crashing, freezing or raising exceptions. More files will be added over time.   
+These files were created as an openly licensed reference data set for testing current and upcoming versions of [jpylyzer](http://openplanets.github.io/jpylyzer/). It includes valid JP2s that were created using a variety of encoding applications, images that are damaged or otherwise corrupted, images that violate certain aspects of the JP2 format specification, and files that aren't even JP2s at all. Jpylyzer should be able to process all of these files without crashing, freezing or raising exceptions. More files will be added over time.   
  
 
 ##Description of dataset
