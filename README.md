@@ -14,6 +14,7 @@ The table below shows the main characterics of all files in the dataset.
 |signature_corrupted.jp2|Corrupted signature box (byte 0x0A at offset 11 changed to 0x0B)|No|
 |invalid_character_in_xml.jp2|XML box contains bell character (0x07)|No|
 |invalid_character_in_codestream_comment.jp2|Codestream comment contains invalid character|No<sup>(1)</sup>|
+|null_character_in_codestream_comment|Codestream comment contains null character|No<sup>(1)</sup>|
 |last_byte_missing.jp2|Last byte of image is missing|No|
 |truncated_at_byte_5000.jp2|Data after byte 4999 missing|No|
 |data_missing_in_last_tilepart.jp2|Most of last tilepart is missing|No|
@@ -34,13 +35,14 @@ The table below shows the main characterics of all files in the dataset.
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
 |bitwiser-codestreamheader-corrupted-xsiz\*.jp2|Bit-corrupted *xsiz* marker in codestream header|No|
 |bitwiser-codestreamheader-corrupted-ysiz\*.jp2|Bit-corrupted *ysiz* marker in codestream header|No|
+|null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 
 (1)Not detected yet, will be added in upcoming release!
 
 
 ##Image attribution and provenance
 
-All images are derived from the following source image: 
+Most of these images were derived from the following source image: 
 
 [http://commons.wikimedia.org/wiki/File:1783_balloonj.jpg](http://commons.wikimedia.org/wiki/File:1783_balloonj.jpg "http://upload.wikimedia.org/wikipedia/commons/a/a8/1783_balloonj.jpg")
 
@@ -48,12 +50,17 @@ All images are derived from the following source image:
 
 Public Domain.
 
-Except *bitwiser* images which were created by Andy Jackson (British Library) using the *Bitwiser* tools:
+The *bitwiser* images were created by Andy Jackson (British Library) using the *Bitwiser* tools:
 
 [https://github.com/openplanets/bitwiser](https://github.com/openplanets/bitwiser) 
 
-##License
-All images released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
+The above images are all released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
+
+The *null_terminated_content_in_xml_box.jp2* image was taken from:
+
+[http://sdowww.lmsal.com/sdomedia/hv_jp2kwrite/v0.8/jp2/AIA/2014/02/01/304/](http://sdowww.lmsal.com/sdomedia/hv_jp2kwrite/v0.8/jp2/AIA/2014/02/01/304/)
+
+Image created by [Lockheed Martin Solar and Astrophysics Laboratory](http://www.lmsal.com/), public domain (license unknown).
 
 ##Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
