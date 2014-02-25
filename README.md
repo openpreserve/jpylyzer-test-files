@@ -30,14 +30,16 @@ The table below shows the main characterics of all files in the dataset.
 |aware.jp2|Created with Aware encoder|Yes|
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
-|bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|No|
+|bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(2)</sup>|
 |bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
 |bitwiser-codestreamheader-corrupted-xsiz\*.jp2|Bit-corrupted *xsiz* marker in codestream header|No|
 |bitwiser-codestreamheader-corrupted-ysiz\*.jp2|Bit-corrupted *ysiz* marker in codestream header|No|
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 
-(1)Not detected yet, will be added in upcoming release!
+(1) Not detected yet, will be added in upcoming release!
+
+(2) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
 
 
 ##Image attribution and provenance
