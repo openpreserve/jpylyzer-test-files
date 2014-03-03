@@ -36,6 +36,7 @@ The table below shows the main characterics of all files in the dataset.
 |bitwiser-codestreamheader-corrupted-xsiz\*.jp2|Bit-corrupted *xsiz* marker in codestream header|No|
 |bitwiser-codestreamheader-corrupted-ysiz\*.jp2|Bit-corrupted *ysiz* marker in codestream header|No|
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
+|palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 
 (1) Not detected yet, will be added in upcoming release!
 
@@ -50,19 +51,31 @@ Most of these images were derived from the following source image:
 
 > 1786 description of the historic Montgolfier Brothers' 1783 balloon flight. Illustration with engineering proportions and description.
 
-Public Domain.
+Public Domain, released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
+
+### *bitwiser* images
 
 The *bitwiser* images were created by Andy Jackson (British Library) using the *Bitwiser* tools:
 
 [https://github.com/openplanets/bitwiser](https://github.com/openplanets/bitwiser) 
 
-The above images are all released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
+Public Domain, released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
 
-The *null_terminated_content_in_xml_box.jp2* image was taken from:
+### *null_terminated_content_in_xml_box.jp2*
+
+This image was taken from:
 
 [http://sdowww.lmsal.com/sdomedia/hv_jp2kwrite/v0.8/jp2/AIA/2014/02/01/304/](http://sdowww.lmsal.com/sdomedia/hv_jp2kwrite/v0.8/jp2/AIA/2014/02/01/304/)
 
 Image created by [Lockheed Martin Solar and Astrophysics Laboratory](http://www.lmsal.com/), public domain (license unknown).
+
+### *palettedImage.jp2* 
+[PROBA2](http://en.wikipedia.org/wiki/Proba-2) [SWAP](http://en.wikipedia.org/wiki/SWAP_%28instrument%29) solar image. SWAP is a project of the [Centre Spatial de Liege](http://www.csl.ulg.ac.be/jcms/c_5053/en/home) and the [Royal Observatory of Belgium](http://www.astro.oma.be/EN/hotnews/index.php), funded by the Belgian Federal Science Policy Office ([BELSPO](http://www.belspo.be/belspo/index_en.stm)). See also the SWAP  Reference papers:
+
+- [Seaton et al. 2013](http://adsabs.harvard.edu/abs/2013SoPh..286...43S), "The SWAP EUV Imaging Telescope Part I: Instrument Overview and Pre-Flight Testing", *Solar Physics*. 
+- [Halain et al. 2013](http://adsabs.harvard.edu/abs/2013SoPh..286...67H), "The SWAP EUV Imaging Telescope. Part II: In-flight Performance and Calibration", *Solar Physics*.
+
+Public domain (license unknown).
 
 ##Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
