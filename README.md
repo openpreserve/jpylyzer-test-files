@@ -70,7 +70,11 @@ This image was taken from:
 Image created by [Lockheed Martin Solar and Astrophysics Laboratory](http://www.lmsal.com/), public domain (license unknown).
 
 ### *palettedImage.jp2* 
-[PROBA2](http://en.wikipedia.org/wiki/Proba-2) [SWAP](http://en.wikipedia.org/wiki/SWAP_%28instrument%29) solar image. SWAP is a project of the [Centre Spatial de Liege](http://www.csl.ulg.ac.be/jcms/c_5053/en/home) and the [Royal Observatory of Belgium](http://www.astro.oma.be/EN/hotnews/index.php), funded by the Belgian Federal Science Policy Office ([BELSPO](http://www.belspo.be/belspo/index_en.stm)). See also the SWAP  Reference papers:
+[PROBA2](http://en.wikipedia.org/wiki/Proba-2) [SWAP](http://en.wikipedia.org/wiki/SWAP_%28instrument%29) solar image, downloaded from:
+
+[http://proba2.oma.be/data/SWAP](http://proba2.oma.be/data/SWAP)
+
+SWAP is a project of the [Centre Spatial de Liege](http://www.csl.ulg.ac.be/jcms/c_5053/en/home) and the [Royal Observatory of Belgium](http://www.astro.oma.be/EN/hotnews/index.php), funded by the Belgian Federal Science Policy Office ([BELSPO](http://www.belspo.be/belspo/index_en.stm)). See also the SWAP  Reference papers:
 
 - [Seaton et al. 2013](http://adsabs.harvard.edu/abs/2013SoPh..286...43S), "The SWAP EUV Imaging Telescope Part I: Instrument Overview and Pre-Flight Testing", *Solar Physics*. 
 - [Halain et al. 2013](http://adsabs.harvard.edu/abs/2013SoPh..286...67H), "The SWAP EUV Imaging Telescope. Part II: In-flight Performance and Calibration", *Solar Physics*.
