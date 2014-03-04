@@ -13,8 +13,9 @@ The table below shows the main characterics of all files in the dataset.
 |reference.jp2|Reference image|Yes|
 |signature_corrupted.jp2|Corrupted signature box (byte 0x0A at offset 11 changed to 0x0B)|No|
 |invalid_character_in_xml.jp2|XML box contains bell character (0x07)|No|
-|invalid_character_in_codestream_comment.jp2|Codestream comment contains invalid character|No<sup>(1)</sup>|
-|null_character_in_codestream_comment|Codestream comment contains null character|No<sup>(1)</sup>|
+|invalid_character_in_codestream_comment.jp2|Codestream comment contains invalid character|No|
+|null_character_in_codestream_comment|Codestream comment contains null character|No|
+|missing_null_terminator_in_urlbox.jp2|Loc (URL) field in URL Box not terminated by null character|No|
 |last_byte_missing.jp2|Last byte of image is missing|No|
 |truncated_at_byte_5000.jp2|Data after byte 4999 missing|No|
 |data_missing_in_last_tilepart.jp2|Most of last tilepart is missing|No|
@@ -30,7 +31,7 @@ The table below shows the main characterics of all files in the dataset.
 |aware.jp2|Created with Aware encoder|Yes|
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
-|bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(2)</sup>|
+|bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(1)</sup>|
 |bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
 |bitwiser-codestreamheader-corrupted-xsiz\*.jp2|Bit-corrupted *xsiz* marker in codestream header|No|
@@ -38,9 +39,7 @@ The table below shows the main characterics of all files in the dataset.
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 
-(1) Not detected yet, will be added in upcoming release!
-
-(2) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
+(1) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
 
 
 ##Image attribution and provenance
