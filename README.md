@@ -14,7 +14,7 @@ The table below shows the main characterics of all files in the dataset.
 |signature_corrupted.jp2|Corrupted signature box (byte 0x0A at offset 11 changed to 0x0B)|No|
 |invalid_character_in_xml.jp2|XML box contains bell character (0x07)|No|
 |invalid_character_in_codestream_comment.jp2|Codestream comment contains invalid character|No|
-|null_character_in_codestream_comment|Codestream comment contains null character|No|
+|null_character_in_codestream_comment.jp2|Codestream comment contains null character|No|
 |missing_null_terminator_in_urlbox.jp2|Loc (URL) field in URL Box not terminated by null character|No|
 |last_byte_missing.jp2|Last byte of image is missing|No|
 |truncated_at_byte_5000.jp2|Data after byte 4999 missing|No|
