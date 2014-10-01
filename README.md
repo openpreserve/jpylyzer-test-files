@@ -2,11 +2,11 @@
 
 ##Purpose of these files
 
-These files were created as an openly licensed reference data set for testing current and upcoming versions of [jpylyzer](http://openplanets.github.io/jpylyzer/). It includes valid JP2s that were created using a variety of encoding applications, images that are damaged or otherwise corrupted, images that violate certain aspects of the JP2 format specification, and files that aren't even JP2s at all. Jpylyzer should be able to process all of these files without crashing, freezing or raising exceptions. More files will be added over time.   
+These files were created as an openly licensed reference data set for testing current and upcoming versions of [jpylyzer](http://openplanets.github.io/jpylyzer/). It includes valid JP2s that were created using a variety of encoding applications, images that are damaged or otherwise corrupted, images that violate certain aspects of the JP2 format specification, and files that aren't even JP2s at all. Jpylyzer should be able to process all of these files without crashing, freezing or raising exceptions. Furthermore, a separate set of images is included that contain codestream marker segments that are not yet fully supported by jpylyzer. More files will be added over time.   
  
 
 ##Description of dataset
-The table below shows the main characterics of all files in the dataset.  
+The tables below show the main characterics of all files in the dataset.
 
 |File name|Description|Valid JP2|
 |:---|:---|:---|
@@ -38,6 +38,22 @@ The table below shows the main characterics of all files in the dataset.
 |bitwiser-codestreamheader-corrupted-ysiz\*.jp2|Bit-corrupted *ysiz* marker in codestream header|No|
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
+
+The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
+
+|File name|box|
+|:---|:---|
+|openJPEG15.jp2|COC|
+||RGN|
+|openJPEG15.jp2|QCC|
+||POC|
+||PLM|
+||PPM|
+||TLM|
+||CRG|
+|sentinel.jp2; palettedImage.jp2; reference.jp2|PLT|
+||PPT|
+
 
 (1) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
 
@@ -79,6 +95,13 @@ SWAP is a project of the [Centre Spatial de Liege](http://www.csl.ulg.ac.be/jcms
 - [Halain et al. 2013](http://adsabs.harvard.edu/abs/2013SoPh..286...67H), "The SWAP EUV Imaging Telescope. Part II: In-flight Performance and Calibration", *Solar Physics*.
 
 Public domain (license unknown).
+
+### *sentinel.jp2*
+
+taken from Sentinel-2 Level-1C test product, European Space Agency:
+
+<https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/test-data>
+
 
 ##Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
