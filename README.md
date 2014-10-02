@@ -38,6 +38,8 @@ The tables below show the main characterics of all files in the dataset.
 |bitwiser-codestreamheader-corrupted-ysiz\*.jp2|Bit-corrupted *ysiz* marker in codestream header|No|
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
+|sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
+
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
