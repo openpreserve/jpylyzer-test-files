@@ -1,11 +1,11 @@
-#jpylyzer-test-files
+# jpylyzer-test-files
 
-##Purpose of these files
+## Purpose of these files
 
 These files were created as an openly licensed reference data set for testing current and upcoming versions of [jpylyzer](http://openplanets.github.io/jpylyzer/). It includes valid JP2s that were created using a variety of encoding applications, images that are damaged or otherwise corrupted, images that violate certain aspects of the JP2 format specification, and files that aren't even JP2s at all. Jpylyzer should be able to process all of these files without crashing, freezing or raising exceptions. Furthermore, a separate set of images is included that contain codestream marker segments that are not yet fully supported by jpylyzer. More files will be added over time.   
  
 
-##Description of dataset
+## Description of dataset
 The tables below show the main characterics of all files in the dataset.
 
 |File name|Description|Valid JP2|
@@ -21,6 +21,7 @@ The tables below show the main characterics of all files in the dataset.
 |data_missing_in_last_tilepart.jp2|Most of last tilepart is missing|No|
 |meth_is_2_no_icc.jp2|Value of METH field in colour specification box is 2, but image doesn't contain an ICC profile |No|
 |height_image_header_damaged.jp2|HEIGHT field in image header is damaged (and not consistent with xsiz field in codestream header)|No|
+|triggerUnboundLocalError.jp2|Corrupted codestream; triggers runtime error in jpylyzer versions 1.14.2 and earlier|No|
 |is_codestream.jp2|JPEG 2000 codestream (no JP2)|No|
 |is_jpx.jp2|JPX (JPEG 2000 Part 2) image|No|
 |is_jpm.jp2|JPM (JPEG 2000 Part 6) image|No|
@@ -60,7 +61,7 @@ The following table lists JP2s with codestream marker segments that are not yet 
 (1) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
 
 
-##Image attribution and provenance
+## Image attribution and provenance
 
 Most of these images were derived from the following source image: 
 
@@ -104,7 +105,10 @@ taken from Sentinel-2 Level-1C test product, European Space Agency:
 
 <https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/test-data>
 
+### *triggerUnboundLocalError.jp2*
 
-##Funding
+Created by [Stefan Weil](https://github.com/openpreserve/jpylyzer/pull/72); used with permission from the author.
+
+## Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
 
