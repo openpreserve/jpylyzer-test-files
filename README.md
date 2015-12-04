@@ -22,6 +22,7 @@ The tables below show the main characterics of all files in the dataset.
 |meth_is_2_no_icc.jp2|Value of METH field in colour specification box is 2, but image doesn't contain an ICC profile |No|
 |height_image_header_damaged.jp2|HEIGHT field in image header is damaged (and not consistent with xsiz field in codestream header)|No|
 |triggerUnboundLocalError.jp2|Corrupted codestream; triggers runtime error in jpylyzer versions 1.14.2 and earlier|No|
+|empty.jp2|Empty (zero byte) file|No|
 |is_codestream.jp2|JPEG 2000 codestream (no JP2)|No|
 |is_jpx.jp2|JPX (JPEG 2000 Part 2) image|No|
 |is_jpm.jp2|JPM (JPEG 2000 Part 6) image|No|
