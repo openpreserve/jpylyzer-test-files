@@ -24,6 +24,9 @@ The tables below show the main characterics of all files in the dataset.
 |triggerUnboundLocalError.jp2|Corrupted codestream; triggers runtime error in jpylyzer versions 1.14.2 and earlier|No|
 |modified_date_out_of_range.jp2|Extreme value (Jan  1 1768) of  file last modified date; causes ValueError under Windows |Yes|
 |ランダム日本語テキスト.jp2|Filename contains non-Western (Japanese) characters|Yes|
+|í¿¿ñ Ÿð°žôµ¢óŠ².jp2|UTF-8 filename that contains surrogate pair|Yes|
+|óò¶œòŠ ¡í¯òœ .jp2|UTF-8 filename that contains surrogate pair|Yes|
+|ó©ñ €šñ€í«ðµ¹.jp2|UTF-8 filename that contains surrogate pair|Yes|
 |empty.jp2|Empty (zero byte) file|No|
 |is_codestream.jp2|JPEG 2000 codestream (no JP2)|No|
 |is_jpx.jp2|JPX (JPEG 2000 Part 2) image|No|
