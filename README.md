@@ -58,17 +58,16 @@ The following table lists JP2s with codestream marker segments that are not yet 
 
 |File name|box|
 |:---|:---|
-|openJPEG15.jp2|COC|
+|openJPEG15.jp2 (more images in [OpenJPEG-data](https://github.com/uclouvain/openjpeg-data))|COC|
 ||RGN|
-|openJPEG15.jp2|QCC|
+|openJPEG15.jp2 (more images in [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz))|QCC|
 ||POC|
 ||PLM|
 ||PPM|
-||TLM|
-||CRG|
+|See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|TLM|
+|See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|CRG|
 |sentinel.jp2; palettedImage.jp2; reference.jp2|PLT|
 ||PPT|
-
 
 (1) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
 
@@ -83,7 +82,7 @@ Most of these images were derived from the following source image:
 
 Public Domain, released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
 
-### openjpeg-data images
+### *openjpeg-data* images
 
 The *oj-* images were taken from the *openjpeg-data* repository:
 
