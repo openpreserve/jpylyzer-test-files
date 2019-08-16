@@ -40,9 +40,9 @@ The tables below show the main characterics of all files in the dataset.
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
 |oj-illegal-rcom-value.jp2|Illegal *rcom* value in COM marker segment|No|
-|oj-ytsiz-no-valid-1.jp2|Illegal value of *yTsiz*|No|
-|oj-ytsiz-no-valid-2.jp2|Illegal value of *yTsiz*|No|
-|oj-xtsiz-no-valid-1.jp2|Illegal value of *xTsiz*|No|
+|oj-ytsiz-not-valid-1.jp2|Illegal value of *yTsiz*|No|
+|oj-ytsiz-not-valid-2.jp2|Illegal value of *yTsiz*|No|
+|oj-xtsiz-not-valid-1.jp2|Illegal value of *xTsiz*|No|
 |oj-tileindex-error-\*.jp2|Erroneous tile index value(s)|No|
 |oj-issue363-4740.jp2|Resulted in UnboundLocalError when validated in J2C mode|No|
 |bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(1)</sup>|
