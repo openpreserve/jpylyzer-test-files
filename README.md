@@ -39,6 +39,12 @@ The tables below show the main characterics of all files in the dataset.
 |aware.jp2|Created with Aware encoder|Yes|
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
+|oj-illegal-rcom-value.jp2|Illegal *rcom* value in COM marker segment|No|
+|oj-ytsiz-no-valid-1.jp2|Illegal value of *yTsiz*|No|
+|oj-ytsiz-no-valid-2.jp2|Illegal value of *yTsiz*|No|
+|oj-xtsiz-no-valid-1.jp2|Illegal value of *xTsiz*|No|
+|oj-tileindex-error-\*.jp2|Erroneous tile index value(s)|No|
+|oj-issue363-4740.jp2|Resulted in UnboundLocalError when validated in J2C mode|No|
 |bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(1)</sup>|
 |bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
@@ -47,7 +53,6 @@ The tables below show the main characterics of all files in the dataset.
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 |sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
-
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
@@ -78,11 +83,19 @@ Most of these images were derived from the following source image:
 
 Public Domain, released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
 
+### openjpeg-data images
+
+The *oj-* images were taken from the *openjpeg-data* repository:
+
+<https://github.com/uclouvain/openjpeg-data>
+
+License unknown.
+
 ### *bitwiser* images
 
 The *bitwiser* images were created by Andy Jackson (British Library) using the *Bitwiser* tools:
 
-[https://github.com/openplanets/bitwiser](https://github.com/openplanets/bitwiser) 
+<https://github.com/openplanets/bitwiser>
 
 Public Domain, released under the [CC-BY](http://creativecommons.org/licenses/by/3.0/) license.
 
