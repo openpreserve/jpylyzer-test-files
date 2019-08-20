@@ -45,6 +45,7 @@ The tables below show the main characterics of all files in the dataset.
 |oj-xtsiz-not-valid-1.jp2|Illegal value of *xTsiz*|No|
 |oj-tileindex-error-\*.jp2|Erroneous tile index value(s)|No|
 |oj-issue363-4740.jp2|Resulted in UnboundLocalError when validated in J2C mode|No|
+|oj-poc-main-header.jp2|Contains progression order change (POC) marker in main codestream header|Yes|
 |bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(1)</sup>|
 |bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
@@ -61,7 +62,7 @@ The following table lists JP2s with codestream marker segments that are not yet 
 |openJPEG15.jp2 (more images in [OpenJPEG-data](https://github.com/uclouvain/openjpeg-data))|COC|
 ||RGN|
 |openJPEG15.jp2 (more images in [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz))|QCC|
-||POC|
+|oj-poc-main-header.jp2|POC|
 ||PLM|
 ||PPM|
 |See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|TLM|
