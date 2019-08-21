@@ -49,9 +49,10 @@ The tables below show the main characterics of all files in the dataset.
 |oj-rgn-main-header-1.jp2|Contains region of interest (RGN) marker in main codestream header|No|
 |oj-rgn-main-header-2.jp2|Contains region of interest (RGN) marker in main codestream header|No|
 |oj-plm-main-header.jp2|Contains packet length (PLM) marker in main codestream header|Yes|
-|oj-ppm-main-header-1.jp2|Contains packed packet headers marker in main codestream header|No|
-|oj-ppm-main-header-2.jp2|Contains packed packet headers marker in main codestream header|No|
-|oj-ppm-main-header-3.jp2|Contains packed packet headers markers in main codestream header|No|
+|oj-ppm-main-header-1.jp2|Contains packed packet headers, main header marker in main codestream header|No|
+|oj-ppm-main-header-2.jp2|Contains packed packet headers, main header marker in main codestream header|No|
+|oj-ppm-main-header-3.jp2|Contains packed packet headers, main header markers in main codestream header|No|
+|oj-ppt-tilepart-header.jp2|Contains packed packet headers, tile part header markers in tile part header|No|
 |bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(1)</sup>|
 |bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
@@ -74,7 +75,7 @@ The following table lists JP2s with codestream marker segments that are not yet 
 |See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|TLM|
 |See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|CRG|
 |sentinel.jp2; palettedImage.jp2; reference.jp2|PLT|
-||PPT|
+|oj-ppt-tilepart-header.jp2|PPT|
 
 (1) Jpylyzer currently doesn't do any validation of ICC profiles. However, see: [https://github.com/openplanets/jpylyzer/issues/45](https://github.com/openplanets/jpylyzer/issues/45)
 
