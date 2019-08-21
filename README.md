@@ -53,6 +53,8 @@ The tables below show the main characterics of all files in the dataset.
 |oj-ppm-main-header-2.jp2|Contains packed packet headers, main header marker in main codestream header|No|
 |oj-ppm-main-header-3.jp2|Contains packed packet headers, main header markers in main codestream header|No|
 |oj-ppt-tilepart-header.jp2|Contains packed packet headers, tile part header markers in tile part header|No|
+|tika-tlm-main-header.jp2|Contains tile-part lengths (TLM) marker in main codestream header|Yes|
+|tika-crg-main-header.jp2|Contains component registration (CRG) marker in main codestream header|Yes|
 |bitwiser-icc-corrupted-tagcount-\*.jp2|Bit-corrupted *tagCount* field in ICC profile|Yes<sup>(1)</sup>|
 |bitwiser-resolutionbox-corrupted-boxlength-8127\*.jp2|Bit-corrupted *Box Length* field in Resolution Box|No|
 |bitwiser-headerbox-corrupted-boxlength-22181.jp2|Bit-corrupted *Box Length* field in JP2 Header Box|No|
@@ -72,8 +74,8 @@ The following table lists JP2s with codestream marker segments that are not yet 
 |oj-poc-main-header.jp2|POC|
 |oj-plm-main-header.jp2|PLM|
 |oj-ppm-main-header-1.jp2, oj-ppm-main-header-2.jp2, oj-ppm-main-header-3.jp2|PPM|
-|See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|TLM|
-|See [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|CRG|
+|tika-tlm-main-header.jp2, more files in [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|TLM|
+|tika-crg-main-header.jp2, more files in [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz)|CRG|
 |sentinel.jp2; palettedImage.jp2; reference.jp2|PLT|
 |oj-ppt-tilepart-header.jp2|PPT|
 
@@ -95,6 +97,14 @@ Public Domain, released under the [CC-BY](http://creativecommons.org/licenses/by
 The *oj-* images were taken from the *openjpeg-data* repository:
 
 <https://github.com/uclouvain/openjpeg-data>
+
+License unknown.
+
+### *Apache Tika* regression corpus images
+
+The *tika-* images were taken from the *Apache Tika* regression corpus:
+
+<https://cwiki.apache.org/confluence/display/TIKA/CommonCrawl3>
 
 License unknown.
 
