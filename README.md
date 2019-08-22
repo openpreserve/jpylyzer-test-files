@@ -46,8 +46,8 @@ The tables below show the main characterics of all files in the dataset.
 |oj-tileindex-error-\*.jp2|Erroneous tile index value(s)|No|
 |oj-issue363-4740.jp2|Resulted in UnboundLocalError when validated in J2C mode|No|
 |oj-poc-main-header.jp2|Contains progression order change (POC) marker in main codestream header|Yes|
-|oj-rgn-main-header-1.j2c|Contains region of interest (RGN) marker in main codestream header|No (but valid codestream)|
-|oj-rgn-tilepart-header-1.j2c|Contains region of interest (RGN) marker in tilepart header|No (but valid codestream)|
+|oj-rgn-main-header-1.jp2|Contains region of interest (RGN) marker in main codestream header|Yes|
+|oj-rgn-tilepart-header-1.jp2|Contains region of interest (RGN) marker in tilepart header|Yes|
 |oj-plm-main-header.jp2|Contains packet length (PLM) marker in main codestream header|Yes|
 |oj-ppm-main-header-1.jp2|Contains packed packet headers, main header marker in main codestream header|No|
 |oj-ppm-main-header-2.jp2|Contains packed packet headers, main header marker in main codestream header|No|
@@ -69,7 +69,7 @@ The following table lists JP2s with codestream marker segments that are not yet 
 |File name|box|
 |:---|:---|
 |openJPEG15.jp2 (more images in [OpenJPEG-data](https://github.com/uclouvain/openjpeg-data))|COC|
-|oj-rgn-main-header-1.j2c, oj-rgn-tilepart-header-1.j2c|RGN|
+|oj-rgn-main-header-1.jp2, oj-rgn-tilepart-header-1.jp2|RGN|
 |openJPEG15.jp2 (more images in [Tika Regression Corpus](http://162.242.228.174/share/jp2.tgz))|QCC|
 |oj-poc-main-header.jp2|POC|
 |oj-plm-main-header.jp2|PLM|
