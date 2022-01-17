@@ -49,7 +49,7 @@ The tables below show the main characterics of all files in the dataset.
 |oj-poc-main-header.jp2|Contains progression order change (POC) marker in main codestream header|Yes|
 |oj-rgn-main-header-1.jp2|Contains region of interest (RGN) marker in main codestream header|Yes|
 |oj-rgn-tilepart-header-1.jp2|Contains region of interest (RGN) marker in tilepart header|Yes|
-|oj-plm-main-header.jp2|Contains packet length (PLM) marker in main codestream header|Yes|
+|oj-plm-main-header.jp2|Contains packet length (PLM) marker in main codestream header|No|
 |oj-ppm-main-header-1.jp2|Contains packed packet headers, main header marker in main codestream header|No|
 |oj-ppm-main-header-2.jp2|Contains packed packet headers, main header marker in main codestream header|No|
 |oj-ppm-main-header-3.jp2|Contains packed packet headers, main header markers in main codestream header|No|
