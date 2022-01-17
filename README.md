@@ -40,6 +40,7 @@ The tables below show the main characterics of all files in the dataset.
 |openJPEG15.jp2|Created with OpenJPEG 1.5 encoder|Yes|
 |graphicsMagick.jp2|Created with GraphicsMagick / JasPer 1.9 encoder|Yes|
 |oj-illegal-rcom-value.jp2|Illegal *rcom* value in COM marker segment|No|
+|oj-tnsot-0.jp2|Value of *tnsot* is 0 (number of tile-parts of tile not defined in header)|Yes|
 |oj-ytsiz-not-valid-1.jp2|Illegal value of *yTsiz*|No|
 |oj-ytsiz-not-valid-2.jp2|Illegal value of *yTsiz*|No|
 |oj-xtsiz-not-valid-1.jp2|Illegal value of *xTsiz*|No|
