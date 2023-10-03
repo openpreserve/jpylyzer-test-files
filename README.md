@@ -8,7 +8,7 @@ These files were created as an openly licensed reference data set for testing cu
 ## Description of dataset
 The tables below show the main characterics of all files in the dataset.
 
-|File name|Description|Valid JP2|
+|File name|Description|Valid|
 |:---|:---|:---|
 |reference.jp2|Reference image|Yes|
 |signature_corrupted.jp2|Corrupted signature box (byte 0x0A at offset 11 changed to 0x0B)|No|
@@ -64,6 +64,7 @@ The tables below show the main characterics of all files in the dataset.
 |null_terminated_content_in_xml_box.jp2|Content of XML box contains null terminator. Demonstrates *--nullxml* option|No|
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 |sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
+|profile-\*.j2c|These codestreams conform to different profiles set by *rsiz*|Yes (J2C)|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
