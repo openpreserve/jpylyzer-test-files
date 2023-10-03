@@ -65,6 +65,7 @@ The tables below show the main characterics of all files in the dataset.
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 |sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
 |profile-\*.j2c|These codestreams conform to different profiles set by *rsiz*|Yes (J2C)|
+|htj2k_cpf_broadcast.j2c|HTJ2K codestream with CPF and CAP marker segments|Yes (JHC)|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
@@ -147,6 +148,10 @@ taken from Sentinel-2 Level-1C test product, European Space Agency:
 ### *triggerUnboundLocalError.jp2*
 
 Created by [Stefan Weil](https://github.com/openpreserve/jpylyzer/pull/72); used with permission from the author.
+
+### *htj2k_cpf_broadcast.j2c*
+
+Created by [michaeldsmith](https://github.com/openpreserve/jpylyzer-test-files/issues/8#issuecomment-1743334801); used with permission from the author.
 
 ## Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
