@@ -66,6 +66,8 @@ The tables below show the main characterics of all files in the dataset.
 |sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
 |profile-\*.j2c|These codestreams conform to different profiles set by *rsiz*|Yes (J2C)|
 |htj2k_cpf_broadcast.j2c|HTJ2K codestream with CPF and CAP marker segments|Yes (JHC)|
+|ohtj2k.jph|JPH file, created with OpenHTJ2K|[No (JPH)](https://github.com/openpreserve/jpylyzer-test-files/issues/9#issuecomment-1769002723)|
+|ohtj2k.j2c|HTJ2K codestream, created with OpenHTJ2K|Yes (JHC)|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
