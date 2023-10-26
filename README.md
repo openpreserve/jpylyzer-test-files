@@ -65,11 +65,11 @@ The tables below show the main characterics of all files in the dataset.
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 |sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
 |profile-\*.j2c|These codestreams conform to different profiles set by *rsiz*|Yes (J2C)|
-|htj2k_cpf_broadcast.j2c|HTJ2K codestream with CPF and CAP marker segments|[No (JHC)](https://github.com/openpreserve/jpylyzer/issues/205#issuecomment-1745405780)|
+|htj2k_cpf_broadcast.jhc|HTJ2K codestream with CPF and CAP marker segments|[No (JHC)](https://github.com/openpreserve/jpylyzer/issues/205#issuecomment-1745405780)|
 |oht-ht.jph|JPH file, created with OpenHTJ2K|[No (JPH)](https://github.com/openpreserve/jpylyzer-test-files/issues/9#issuecomment-1769002723)|
-|oht-ht.j2c|HTJ2K codestream, created with OpenHTJ2K|Yes (JHC)|
-|ojph-ht.j2c|HTJ2K codestream, created with OpenJPH|Yes (JHC)|
-|grok-ht.j2c|HTJ2K codestream, created with Grok|Yes (JHC)|
+|oht-ht.jhc|HTJ2K codestream, created with OpenHTJ2K|Yes (JHC)|
+|ojph-ht.jhc|HTJ2K codestream, created with OpenJPH|Yes (JHC)|
+|grok-ht.jhc|HTJ2K codestream, created with Grok|Yes (JHC)|
 |oj-ht-byte.jph|JPH file from OpenJPEG-data|Yes (JPH)|
 |oj-ht-byte_causal.jhc|JHC file from OpenJPEG-data|Yes (JHC)|
 
