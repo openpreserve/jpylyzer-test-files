@@ -70,6 +70,8 @@ The tables below show the main characterics of all files in the dataset.
 |oht-ht.j2c|HTJ2K codestream, created with OpenHTJ2K|Yes (JHC)|
 |ojph-ht.j2c|HTJ2K codestream, created with OpenJPH|Yes (JHC)|
 |grok-ht.j2c|HTJ2K codestream, created with Grok|Yes (JHC)|
+|oj-ht-byte.jph|JPH file from OpenJPEG-data|Yes (JPH)|
+|oj-ht-byte_causal.jhc|JHC file from OpenJPEG-data|Yes (JHC)|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
