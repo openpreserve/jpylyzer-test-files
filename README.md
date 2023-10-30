@@ -65,13 +65,17 @@ The tables below show the main characterics of all files in the dataset.
 |palettedImage.jp2|Paletted image (palette box, component mapping box)|Yes|
 |sentinel.jp2|Contains [GeoTIFF box](http://fileformats.archiveteam.org/wiki/GeoJP2) (UUID box)|Yes|
 |profile-\*.j2c|These codestreams conform to different profiles set by *rsiz*|Yes (J2C)|
-|htj2k_cpf_broadcast.jhc|HTJ2K codestream with CPF and CAP marker segments|[No (JHC)](https://github.com/openpreserve/jpylyzer/issues/205#issuecomment-1745405780)|
+|oj-ht-byte.jph|JPH file from OpenJPEG-data|Yes (JPH)|
 |oht-ht.jph|JPH file, created with OpenHTJ2K|[No (JPH)](https://github.com/openpreserve/jpylyzer-test-files/issues/9#issuecomment-1769002723)|
+|htj2k_cpf_broadcast.jhc|HTJ2K codestream with CPF and CAP marker segments|[No (JHC)](https://github.com/openpreserve/jpylyzer/issues/205#issuecomment-1745405780)|
 |oht-ht.jhc|HTJ2K codestream, created with OpenHTJ2K|Yes (JHC)|
 |ojph-ht.jhc|HTJ2K codestream, created with OpenJPH|Yes (JHC)|
 |grok-ht.jhc|HTJ2K codestream, created with Grok|Yes (JHC)|
-|oj-ht-byte.jph|JPH file from OpenJPEG-data|Yes (JPH)|
 |oj-ht-byte_causal.jhc|JHC file from OpenJPEG-data|Yes (JHC)|
+|erdas-nullinput-uint8-rgb-null-2tileparts.jp2|null pattern (synthetic dataset) with:<br>&nbsp;&nbsp;max Lplt = 2^5-1<br>&nbsp;&nbsp;max plt's per tile-part = 2<br>This was created to be a small (for unit tests) dataset that's more representative of the larger datasets (>~4GB) the ERDAS APOLLO GeoCompressor can create.|Yes|
+|erdas-sandiego3i_5.2.jp2|Created with ECW JPEG 2000 SDK v5.2.0.172|Yes|
+|erdas-sandiego3i_5.5.jp2|Created with ECW JPEG 2000 SDK v5.5.0.2042 (latest 2021 release)|Yes|
+|erdas-sandiego1m_null.jp2| Created with ECW JPEG 2000 SDK v3.5.0.4<br>Has "holes" to demonstrate alpha|Yes|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
@@ -158,6 +162,10 @@ Created by [Stefan Weil](https://github.com/openpreserve/jpylyzer/pull/72); used
 ### *htj2k_cpf_broadcast.j2c*
 
 Created by [michaeldsmith](https://github.com/openpreserve/jpylyzer-test-files/issues/8#issuecomment-1743334801); used with permission from the author.
+
+### *erdas* images
+
+Created using ERDAS ERDAS ECW/JP2 SDK; provided with permission by [Hexagon Geospatial](https://hexagon.com/company/divisions/safety-infrastructure-geospatial).
 
 ## Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
