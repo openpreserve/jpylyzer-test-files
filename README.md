@@ -71,7 +71,7 @@ The tables below show the main characterics of all files in the dataset.
 |erdas-sandiego1m_null.jp2| Created with ECW JPEG 2000 SDK v3.5.0.4<br>Has "holes" to demonstrate alpha|Yes|
 |oj-ht-byte.jph|JPH file from OpenJPEG-data|Yes (JPH)|
 |wrongbpc-ht.jph|JPH file with wrong Bits Per Component value in image header|No (JPH)|
-|oht-ht.jph|JPH file, created with OpenHTJ2K|Yes|
+|oht-ht.jph|JPH file, created with OpenHTJ2K|Yes (JPH)|
 |htj2k_cpf_broadcast.jhc|HTJ2K codestream with CPF and CAP marker segments|[No (JHC)](https://github.com/openpreserve/jpylyzer/issues/205#issuecomment-1745405780)|
 |oht-ht.jhc|HTJ2K codestream, created with OpenHTJ2K|Yes (JHC)|
 |ojph-ht.jhc|HTJ2K codestream, created with OpenJPH|Yes (JHC)|
