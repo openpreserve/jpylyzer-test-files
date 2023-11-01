@@ -166,7 +166,7 @@ Created by [michaeldsmith](https://github.com/openpreserve/jpylyzer-test-files/i
 
 ### *erdas* images
 
-Created using ERDAS ERDAS ECW/JP2 SDK; provided with permission by [Hexagon Geospatial](https://hexagon.com/company/divisions/safety-infrastructure-geospatial).
+Created using ERDAS ECW/JP2 SDK; provided with permission by [Hexagon Geospatial](https://hexagon.com/company/divisions/safety-infrastructure-geospatial).
 
 ## Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
