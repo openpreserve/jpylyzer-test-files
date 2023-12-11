@@ -77,6 +77,7 @@ The tables below show the main characterics of all files in the dataset.
 |ojph-ht.jhc|HTJ2K codestream, created with OpenJPH|Yes (JHC)|
 |grok-ht.jhc|HTJ2K codestream, created with Grok|Yes (JHC)|
 |oj-ht-byte_causal.jhc|HTJ2K codestream from OpenJPEG-data|Yes (JHC)|
+|tileoffset-ojph.jhc|HTJ2K codestream with tile offsets in x and y direction|Yes (JHC)|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
@@ -167,6 +168,10 @@ Created by [michaeldsmith](https://github.com/openpreserve/jpylyzer-test-files/i
 ### *erdas* images
 
 Created using ERDAS ECW/JP2 SDK; provided with permission by [Hexagon Geospatial](https://hexagon.com/company/divisions/safety-infrastructure-geospatial).
+
+## *tileoffset-ojph.jhc*
+
+Taken from [jp2k_test_codestreams](https://github.com/aous72/jp2k_test_codestreams/) (OpenJPH test files).
 
 ## Funding
 This work was partially supported by the [SCAPE](http://www.scape-project.eu/) Project. The SCAPE project is co-funded by the European Union under FP7 ICT-2009.4.1 (Grant Agreement number 270137).
