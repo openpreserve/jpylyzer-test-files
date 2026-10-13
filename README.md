@@ -79,6 +79,8 @@ The tables below show the main characterics of all files in the dataset.
 |grok-ht.jhc|HTJ2K codestream, created with Grok|Yes (JHC)|
 |oj-ht-byte_causal.jhc|HTJ2K codestream from OpenJPEG-data|Yes (JHC)|
 |tileoffset-ojph.jhc|HTJ2K codestream with tile offsets in x and y direction|Yes (JHC)|
+|icc_v4_preference.jp2|Contains embedded v4 LUT-based ICC profile|No|
+|icc_v4_appearance.jp2|Contains embedded v4 LUT-based ICC profile|No|
 
 The following table lists JP2s with codestream marker segments that are not yet fully supported by jpylyzer:
 
